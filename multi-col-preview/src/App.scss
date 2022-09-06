@@ -1,0 +1,7 @@
+@import './Components/AllComponentsStyle.scss';
+
+div#root {
+  min-height: 100vh;
+  max-width: $maxwidth;
+  background-color: #E2E2E2;
+}
