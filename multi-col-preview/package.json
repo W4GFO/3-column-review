@@ -1,6 +1,7 @@
 {
   "name": "multi-col-preview",
   "version": "0.1.0",
+  "homepage": "https://w4gfo.github.io/3-column-review/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
