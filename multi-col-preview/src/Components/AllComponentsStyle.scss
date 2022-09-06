@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display');
+
+$DarkCyan: hsl(184, 100%, 22%);
+$BrightOrange: hsl(31, 77%, 52%);
+$VeryDarkCyan: hsl(179, 100%, 13%);
+
+//(background, headings, buttons)
+$VeryLightGray: hsl(0, 0%, 95%);
+
+//(paragraphs)
+$TransparentWhite : hsla(0, 0%, 100%, 0.75);
+
+$LexendWeight:400;
+$BigShoulderWeight:700;
+
+$TopMargin:8px;
+$LeftMargin:8px;
+$BottomMargin:12px;
+
+$SmallBorderRadius:8px;
+$ButtonBorderRadius:32px;
+
+$MinDisplayWidth:375px;
+$MaxDisplayWidth:1440px;
+
+$BreakPoint1_Width:701px;
+$BreakPoint2_Width:901px;
+$BreakPoint3_Width:1101px;
+
+$maxwidth:1440px;

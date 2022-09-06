@@ -1,0 +1,105 @@
+@import './AllComponentsStyle.scss';
+
+.grid-item * {
+	margin-left: $LeftMargin;
+}
+
+.grid-item img {
+	width: 45px;
+	height: 30px;
+	margin-top: 16px;
+	margin-left: calc($LeftMargin * 2);
+}
+
+.grid-item article header {
+	margin-top: 4px;
+	color: $VeryLightGray;
+}
+
+.grid-item article p {
+	margin-right: $LeftMargin;
+	color: $TransparentWhite;
+}
+
+.card_one {
+	margin-top: $TopMargin;
+	background-color: $BrightOrange;
+	border-top-left-radius: $SmallBorderRadius;
+	border-top-right-radius: $SmallBorderRadius;
+}
+
+.card_two {
+	background-color:$DarkCyan;
+}
+
+.card_three {
+	background-color: $VeryDarkCyan;
+	margin-bottom: $SmallBorderRadius;
+	border-bottom-left-radius: $SmallBorderRadius;
+	border-bottom-right-radius: $SmallBorderRadius;
+}
+
+.grid-item article header {
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: $BigShoulderWeight;
+	font-family: 'Big Shoulders Display', 'Times New Roman', Times, serif;
+}
+
+button {
+	border: none;
+	padding: 10px 21px;//T/B & L/R
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: capitalize;
+	margin-bottom: $BottomMargin;
+	background-color:$VeryLightGray;
+	border-radius: $ButtonBorderRadius;
+}
+
+.card_one button {
+	color: $BrightOrange;
+}
+
+.card_two button {
+	color: $DarkCyan;
+}
+
+.card_three button {
+	color: $VeryDarkCyan;
+}
+
+@media screen and (min-width:$BreakPoint1_Width) {
+	.card_one {
+		margin-top: 0px;
+		border-top-right-radius: 0px;//First need to undo the corner work used for the mobile UI
+		border-bottom-left-radius: $SmallBorderRadius;
+	}
+
+	.card_three {
+		margin-bottom: 0px;
+		border-bottom-left-radius: 0px;//First need to undo the corner work used for the mobile UI
+		border-top-right-radius: $SmallBorderRadius;
+	}
+
+	.grid-item img{
+		margin-bottom: $BottomMargin;
+	}
+
+	.grid-item article header {
+		margin-bottom: $BottomMargin;
+	}
+
+	.grid-item article p {
+		margin-top: 20px;
+		margin-right: 28px;
+		line-height: 1.2;
+	}
+
+	.grid-item button:hover {
+		background:transparent;
+		color: $TransparentWhite;
+		border: 1px solid #d0d0d0;
+	}
+}
