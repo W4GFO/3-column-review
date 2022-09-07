@@ -4,4 +4,9 @@ div#root {
   min-height: 100vh;
   max-width: $maxwidth;
   background-color: #E2E2E2;
+  
+  /*Centering*/
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
